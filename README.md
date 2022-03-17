@@ -2,7 +2,7 @@
 ### Talal Ahmed
 Initially coded in 2018. Pushing to new GitHub profile in 2022.
 ## Overview
-Java app with GUI that uses a previously trained neural network to recognize drawn uppercase letters
+Java app with GUI that uses a previously trained neural network to recognize drawn uppercase letters. GUI made using swing.
 
 The application is composed of three Java files (`LetterRecognizer.java`, `RecognizerNeuralNetwork.java`, `DrawArea.java`) and two CSV files which are the trained neural network model (`w_ih_1000x784.csv`, `w_ho_26x1000.csv`).
 
