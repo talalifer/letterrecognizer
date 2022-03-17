@@ -15,18 +15,16 @@
 */
 
 import java.awt.*;
-import javax.swing.*;
 import java.awt.image.BufferedImage;
-import javax.imageio.ImageIO;
 
 import java.io.File;
 import java.io.IOException;
 
-import java.util.*;
+import java.util.*; //used for troubleshooting
 import java.util.Arrays;
-import java.util.List;
+import java.util.List; //used for troubleshooting
 import java.util.Scanner;
-import java.lang.Math.*;
+import java.lang.Math.*; //used for troubleshooting
 
 class RecognizerNeuralNetwork
 {
@@ -138,7 +136,7 @@ class RecognizerNeuralNetwork
     private static int strongestSignal(double[][] outputSignal)
     {
         int rows = outputSignal.length;
-        int cols = outputSignal[0].length;
+        // int cols = outputSignal[0].length;
 
         int highestValIndex = 0;
         double highestVal = outputSignal[0][0];
@@ -176,6 +174,7 @@ class RecognizerNeuralNetwork
             }
             i++;
         }
+        sc.close();
         return csvArray;
     }
 
@@ -184,7 +183,6 @@ class RecognizerNeuralNetwork
     {
         int rowsA = matrixA.length;
         int colsA = matrixA[0].length;
-        int rowsB = matrixB.length;
         int colsB = matrixB[0].length;
 
         //Output matrix will have rows as long as MatrixA and columns as long as MatrixB
