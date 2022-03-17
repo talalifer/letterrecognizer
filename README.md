@@ -37,3 +37,6 @@ Command to run application:
     -	Interprets the output signal
           -	The letter represented by the largest number in the network’s answer
     -	 Contains `getAnswer()` method that returns the network’s prediction. 
+
+**preview of app**<br>
+![app preview](https://github.com/talalifer/java-letterrecognizer/blob/7571c617d3bb1a34250ecea64ca2a1233f5695fc/Testing%20Files/appExample.png)
