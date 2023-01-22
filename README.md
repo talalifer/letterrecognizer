@@ -1,6 +1,5 @@
 # java-letterrecognizer
-### Talal Ahmed
-Initially coded in 2018. Pushing to new GitHub profile in 2022.
+
 ## Overview
 Java app with GUI that uses a previously trained neural network to recognize drawn uppercase letters.
 
